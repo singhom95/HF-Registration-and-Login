@@ -1,16 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Login-Form</title>
 </head>
 <body>
-    <div class="login-page">
-        <h2 id="login">Login</h2>
-        <form id="form">
-            <input id="username" type="text" placeholder="Enter Username" required/>
-        </form>
-    </div>
-    
+    <h2>Login</h2>
+    <form>
+        <fieldset>
+            <legend>Sign In</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="loginId">Email or Phone Number:</label><br>
+                        <input type="text" id="loginId" name="loginId" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="loginPassword">Password:</label><br>
+                        <input type="password" id="loginPassword" name="loginPassword" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Login">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#">Forgot Password?</a><br>
+                        <a href="registration.html">Don't have an account? Sign up</a>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
 </body>
 </html>
