@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    background: url('login bg image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+h3 {
+    font-family: 'Poppins', sans-serif;;
+}
+
+.card {
+    background-color: #ffffff8a;
+    border: none;
+    border-radius: 1rem;
+}
+
+button[type="submit"] {
+  font-weight: 500;
+  padding: 0.7rem 2.5rem;
+  border-radius: 50px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, button:focus {
+    box-shadow: none !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
