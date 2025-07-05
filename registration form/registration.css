@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 body {
-  background: linear-gradient(to right, #d8eaf8, #ffffff);
+  background-image: url('registration\ bg\ image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   font-family: 'Poppins', sans-serif;
   color: #333;
   margin: 0;
