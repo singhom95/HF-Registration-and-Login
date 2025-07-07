@@ -24,17 +24,17 @@ document.addEventListener("DOMContentLoaded", function () {
   if (signUpLink) {
     signUpLink.addEventListener("click", function (e) {
       e.preventDefault();
-      // Use encoded path
+      // Use proper relative path from current file
       window.location.href = "../registration%20form/registration.html";
     });
   }
 
   // Optional: Handle "Forgot Password" click
   const forgotPasswordLink = document.getElementById("forgotPasswordLink");
-if (forgotPasswordLink) {
-  forgotPasswordLink.addEventListener("click", function (e) {
-    e.preventDefault();
-    alert("Redirect to forgot password page (to be implemented)");
-  });
-}
+  if (forgotPasswordLink) {
+    forgotPasswordLink.addEventListener("click", function (e) {
+      e.preventDefault();
+      alert("Redirect to forgot password page (to be implemented)");
+    });
+  }
 });
