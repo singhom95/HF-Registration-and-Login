@@ -20,20 +20,21 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Handle signup click
-  const signUpLink = document.querySelector('a[href="registration form/registration.html"]');
+  const signUpLink = document.getElementById("signUpLink");
   if (signUpLink) {
     signUpLink.addEventListener("click", function (e) {
       e.preventDefault();
-      window.location.href = "registration form/registration.html";
+      // Use encoded path
+      window.location.href = "../registration%20form/registration.html";
     });
   }
 
   // Optional: Handle "Forgot Password" click
-  const forgotPasswordLink = document.querySelector('a[href="#"]');
-  if (forgotPasswordLink) {
-    forgotPasswordLink.addEventListener("click", function (e) {
-      e.preventDefault();
-      alert("Forgot Password functionality is not implemented yet.");
-    });
-  }
+  const forgotPasswordLink = document.getElementById("forgotPasswordLink");
+if (forgotPasswordLink) {
+  forgotPasswordLink.addEventListener("click", function (e) {
+    e.preventDefault();
+    alert("Redirect to forgot password page (to be implemented)");
+  });
+}
 });
