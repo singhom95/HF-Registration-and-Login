@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
     signUpLink.addEventListener("click", function (e) {
       e.preventDefault();
       // Use proper relative path from current file
-      window.location.href = "../registration%20form/registration.html";
+      window.location.href = "../registration-form/registration.html";
     });
   }
 
