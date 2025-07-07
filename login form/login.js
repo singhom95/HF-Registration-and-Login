@@ -18,4 +18,22 @@ document.addEventListener("DOMContentLoaded", function () {
       alert("Invalid login credentials. Please try again.");
     }
   });
+
+  // Handle signup click
+  const signUpLink = document.querySelector('a[href="registration form/registration.html"]');
+  if (signUpLink) {
+    signUpLink.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.location.href = "registration form/registration.html";
+    });
+  }
+
+  // Optional: Handle "Forgot Password" click
+  const forgotPasswordLink = document.querySelector('a[href="#"]');
+  if (forgotPasswordLink) {
+    forgotPasswordLink.addEventListener("click", function (e) {
+      e.preventDefault();
+      alert("Forgot Password functionality is not implemented yet.");
+    });
+  }
 });

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  background-image: url('registration\ bg\ image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+form fieldset:first-of-type {
+  margin-top: 2.5rem; /* or try 2.5rem for more space */
+}
+
+/* Form Container */
+.container {
+  max-width: 950px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Form Styling */
+form {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  border: 1px solid #e0e6ed;
+  box-shadow:0 8px 24px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+/* Heading */
+.heading-highlight {
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #007bff;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.heading-highlight span {
+  color: #28a745;
+}
+
+/* Section Titles */
+legend {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+/* Labels and Inputs */
+.form-label {
+  font-weight: 500;
+  color: #333;
+}
+
+.form-control,
+.form-select {
+  border-radius: 8px;
+  padding: 0.6rem;
+  border: 1px solid #ced4da;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.15rem rgba(0, 123, 255, 0.25);
+}
+
+/* Fieldset Spacing */
+fieldset {
+  border: none;
+  margin-bottom: 2rem;
+  padding: 0;
+}
+
+/* Submit Button */
+button[type="submit"] {
+  font-weight: 500;
+  padding: 0.7rem 2.5rem;
+  border-radius: 50px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+  box-shadow: 0 0 12px rgba(0, 123, 255, 0.4);
+}
+
